@@ -10,6 +10,6 @@ int main(){
         int i = 1;
         while(n%i==0) i++;
             cout << i-1 << endl;
-        }
+    }
     return 0;
 }
