@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int t;
+    long long t;
     cin >> t;
     while(t--){
       long long n;
@@ -16,3 +16,5 @@ int main(){
     }
     return 0;
 }
+
+// works in C++ 17 compiler in CodeForces
