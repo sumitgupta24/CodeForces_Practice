@@ -15,7 +15,8 @@ int main(){
         if(mpp.find(ch) == mpp.end()) mpp[ch] = i;
       }
       long long total = 0;
-      for(auto& [ch,ind] : mpp){
+      for(auto& it : mpp){
+        int ind = it.second;
         total += (n - ind);
       }
       cout << total << endl;
