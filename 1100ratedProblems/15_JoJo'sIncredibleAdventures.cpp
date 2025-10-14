@@ -7,7 +7,7 @@ int main(){
     while(t--){
       string str;
       cin >> str;
-      int n = str.length();
+      long long n = str.length();
       long long maxCount = 0;
       long long count = 0;
       for(int i=0;i<str.length();i++){
