@@ -17,6 +17,7 @@ int main(){
         if(val > r){
           cout << "NO" << endl;
           flag = false;
+          break;
         }
       }
       if(flag){
